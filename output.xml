@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5.1 (Python 3.14.2 on win32)" generated="2026-11-07T19:20:26.811567" rpa="false" schemaversion="5">
+<suite id="s1" name="Fluxo Completo" source="C:\Users\nasci\OneDrive\Área de Trabalho\Trabalho_Robot_Framework\fluxo_completo.robot">
+<test id="s1-t1" name="Fluxo Completo De Compra" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:27.404804" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com'.</msg>
+<arg>https://www.saucedemo.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-11-07T19:20:27.404564" elapsed="1.193315"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:20:30.599789" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:28.598599" elapsed="2.001343"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:30.601043" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
+<arg>id=user-name</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:30.600419" elapsed="0.099938"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:20:31.702149" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:30.701106" elapsed="1.001167"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:31.702877" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2026-11-07T19:20:31.724160" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id=password</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:31.702578" elapsed="0.057074"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:20:32.760897" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:31.760227" elapsed="1.000783"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:32.761604" level="INFO">Clicking button 'id=login-button'.</msg>
+<arg>id=login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:32.761324" elapsed="0.055057"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:20:34.817782" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:32.816980" elapsed="2.000921"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:34.818454" level="INFO">Clicking button 'id=add-to-cart-sauce-labs-backpack'.</msg>
+<arg>id=add-to-cart-sauce-labs-backpack</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:34.818171" elapsed="0.047596"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:20:36.867118" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:34.866233" elapsed="2.000994"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:36.867884" level="INFO">Clicking element 'class=shopping_cart_link'.</msg>
+<arg>class=shopping_cart_link</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:36.867625" elapsed="0.043707"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:20:38.912467" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:36.911865" elapsed="2.000724"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:38.913134" level="INFO">Clicking button 'id=checkout'.</msg>
+<arg>id=checkout</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:38.912873" elapsed="0.062306"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:20:40.976516" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:38.975564" elapsed="2.001065"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:40.977318" level="INFO">Typing text 'Elias' into text field 'id=first-name'.</msg>
+<arg>id=first-name</arg>
+<arg>Elias</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:40.976976" elapsed="0.074882"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:41.052874" level="INFO">Typing text 'Ferreira' into text field 'id=last-name'.</msg>
+<arg>id=last-name</arg>
+<arg>Ferreira</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:41.052225" elapsed="0.073079"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:41.126071" level="INFO">Typing text '50000' into text field 'id=postal-code'.</msg>
+<arg>id=postal-code</arg>
+<arg>50000</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:41.125723" elapsed="0.065338"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:20:43.192594" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:41.191600" elapsed="2.001100"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:43.193285" level="INFO">Clicking button 'id=continue'.</msg>
+<arg>id=continue</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:43.193040" elapsed="0.061068"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:20:45.255437" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:43.254581" elapsed="2.000966"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:45.256154" level="INFO">Clicking button 'id=finish'.</msg>
+<arg>id=finish</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-07T19:20:45.255845" elapsed="0.066009"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:20:50.323106" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:45.322215" elapsed="5.001036"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-11-07T19:20:50.332385" level="INFO">Current page contains text 'Thank you for your order!'.</msg>
+<arg>Thank you for your order!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-11-07T19:20:50.323621" elapsed="0.008875"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-07T19:21:00.333508" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-07T19:20:50.332790" elapsed="10.000826"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-11-07T19:21:00.333860" elapsed="2.179245"/>
+</kw>
+<status status="PASS" start="2026-11-07T19:20:27.403575" elapsed="35.109950"/>
+</test>
+<status status="PASS" start="2026-11-07T19:20:26.814031" elapsed="35.700146"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Fluxo Completo" id="s1" pass="1" fail="0" skip="0">Fluxo Completo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
